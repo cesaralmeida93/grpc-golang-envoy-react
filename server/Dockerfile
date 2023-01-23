@@ -1,4 +1,4 @@
-FROM common-grpc-alpine:latest
+FROM golang:latest
 
 COPY . .
 
